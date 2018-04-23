@@ -16,7 +16,8 @@
     "url": "https://github.com/zerga9/makersbnb/issues"
   },
   "homepage": "https://github.com/zerga9/makersbnb#readme",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "cypress": "^2.1.0"
   }
 }
