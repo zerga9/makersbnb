@@ -1,0 +1,22 @@
+{
+  "name": "makersbnb",
+  "version": "1.0.0",
+  "description": "N/A",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zerga9/makersbnb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zerga9/makersbnb/issues"
+  },
+  "homepage": "https://github.com/zerga9/makersbnb#readme",
+  "dependencies": {
+    "cypress": "^2.1.0"
+  }
+}
