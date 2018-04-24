@@ -32,3 +32,9 @@ Testing framework installation
 
 1. Install Cypress by running `npm install cypress` (you may also need to run `npm init`)
 
+
+Installation instructions
+-----
+
+- Install Node.js
+- Run `npm install` to install dependencies

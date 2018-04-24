@@ -4,7 +4,8 @@
   "description": "N/A",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -16,8 +17,13 @@
     "url": "https://github.com/zerga9/makersbnb/issues"
   },
   "homepage": "https://github.com/zerga9/makersbnb#readme",
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongodb": "^3.0.7",
+    "mongoose": "^5.0.16"
+  },
   "devDependencies": {
-    "cypress": "^2.1.0"
+    "cypress": "^2.1.0",
+    "nodemon": "^1.17.3"
   }
 }
