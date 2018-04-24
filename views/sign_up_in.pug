@@ -7,7 +7,7 @@ head
 .container
   .col-md-6
     #logbox
-      form#signup(method='post' action='/signup')
+      form#signup(method='post' action='/property/new')
         h1 create an account
         input.input.pass(name='user[name]' type='text' placeholder="What's your username?" pattern='^[\w]{3,16}$' autofocus='autofocus' required='required')
         input.input.pass(name='user[password]' type='password' placeholder='Choose a password' required='required')
@@ -20,7 +20,7 @@ head
   // col-md-6
   .col-md-6
     #logbox
-      form#signup(method='post' action='/signup')
+      form#signup(method='post' action='/property/new')
         h1 account login
         input.input.pass(name='user[email]' type='email' placeholder='enter your email')
         input.input.pass(name='user[password]' type='password' placeholder='enter your password' required='required')
