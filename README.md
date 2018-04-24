@@ -32,3 +32,11 @@ Testing framework installation
 
 1. Install Cypress by running `npm install cypress` (you may also need to run `npm init`)
 
+
+Installation instructions
+-----
+
+- Install Node.js
+- In your main installation folder, install MongoDB: `npm install mongodb`
+- Similarly install Mongoose: `npm install mongoose`
+- Finally, install Express.js: `npm install express`
