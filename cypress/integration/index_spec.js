@@ -4,15 +4,9 @@ describe('My First Test', function() {
   })
 })
 
-describe('My First Test', function() {
-  it('Does not do much!', function() {
-    expect(true).to.equal(false)
-  })
-})
-
 describe('Landing page', function() {
-  it('Contains a bungalow', function() {
+  it('contains welcome message', function() {
     cy.visit('http://localhost:3000')
-    cy.contains('Hello World')
+    cy.contains('Welcome to Makers BnB')
   })
 })
