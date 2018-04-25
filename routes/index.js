@@ -7,6 +7,10 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Makers BnB' });
 });
 
+router.post('/', function(req, res, next) {
+  res.render('index', { title: 'Makers BnB' });
+});
+
 router.get('/users/new', function(req, res, next) {
   res.render('sign_up_in', { title: 'Makers BnB' });
 });
@@ -16,7 +20,27 @@ router.get('/property/new', function(req, res, next) {
 });
 
 router.post('/property/new', function(req, res, next) {
-  res.render('property', { title: 'Makers BnB' });
+  // res.render('property', { title: 'Makers BnB' });
+  var db = new mongoOp();
+
+  var response = {};
+  // fetch data from REST request.
+  // Add strict validation when you use this in Production.
+  db.propertyName = req.body.propertyName;
+  db.propertyDetails = req.body.propertyDetails;
+  db.propertyPrice = req.body.propertyPrice;
+  db.save(function(err){
+  // save() will run insert() command of MongoDB.
+  // it will add new data in collection.
+      if(err) {
+          response = {"error" : true,"message" : "Error adding data"};
+      } else {
+          response = {"error" : false,"message" : "Data added"};
+      }
+      // res.json(response);
+
+      res.redirect('/property/new');
+    });
 });
 
 router.route("/properties")
@@ -50,6 +74,7 @@ router.route("/properties")
         }
         res.json(response);
       });
+
 });
 
 module.exports = router;

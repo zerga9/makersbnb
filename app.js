@@ -55,4 +55,7 @@ router.get("/",function(req,res){
 app.use('/',router);
 
 app.listen(3000);
+var bodyParser = require('body-parser');
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
 console.log("Listening to PORT 3000");
