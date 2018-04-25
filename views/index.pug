@@ -7,34 +7,14 @@ h1 Welcome to Makers BnB
 br
 
 h4 Here is a list of our available properties:
+
 br
 
-#{properties['message']}
-
 ul.list-group
-  li.list-group-item
-    | Penthouse Oasis on Regent Canal
+  each property in properties['message']
+    li.list-group-item= property['propertyName']
+    li= property['propertyPrice']
+    li= property['propertyDetails']
     br
-    |     Contact Details: jblggs@gmail.com
-    br
-    |     Price: &pound;72 per night
-  li.list-group-item
-    | Sleep in a Room in Central Apartment
-    br
-    |     Contact Details: jsmith@gmail.com
-    br
-    |     Price: &pound;104 per night
-  li.list-group-item
-    | Stay in a charming Garden Flat in Fulham
-    br
-    | Contact Details: jpetson@gmail.com
-    br
-    |   Price: &pound;99 per night
-  li.list-group-item
-    | Comfy Room by the Thames with Private Bathroom
-    br
-    | Contact Details: ddoublee@gmail.com
-    br
-    |   Price: &pound;204 per night
 
 a.btn.btn-info(href='/users/new' role='button') Sign In/Register
