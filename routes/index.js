@@ -50,7 +50,7 @@ router.post('/property/new', function(req, res, next) {
       }
       // res.json(response);
 
-      res.redirect('/property/new');
+      res.redirect('/properties');
     });
 });
 
@@ -86,7 +86,6 @@ router.route("/properties")
         }
         res.json(response);
       });
-
 });
 
 module.exports = router;
