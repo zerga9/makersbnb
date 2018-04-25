@@ -5,14 +5,14 @@ head
   script(src='https://code.jquery.com/jquery-3.3.1.slim.min.js' integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo' crossorigin='anonymous')
 h1 Add Your Property
 .container-fluid
-  form
+  form(method='post' action='/property/new')
     .form-group
-      label(for='property_title') Property Headline
-      input#property_headline.form-control(type='text' placeholder='Beautiful city appartment in Central London')
+      label(for='propertyName') Property Headline
+      input#propertyName.form-control(name='propertyName' type='text' placeholder='Beautiful city apartment in Central London')
     .form-group
-      label(for='contact') Contact Details
-      input#contact_details.form-control(type='text' placeholder='gbstring@gmail.com')
+      label(for='propertyDetails') Contact Details
+      input#propertyDetails.form-control(name='propertyDetails' type='text' placeholder='gbstring@gmail.com')
     .form-group
-      label(for='price') Price(per night)
-      input#princing.form-control(type='text' placeholder='£89')
+      label(for='propertyPrice') Price(per night)
+      input#propertyPrice.form-control(name='propertyPrice' type='text' placeholder='£89')
     button.btn.btn-primary.mb-2(type='submit') Submit
