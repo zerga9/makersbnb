@@ -4,7 +4,18 @@ var mongoOp     =   require("../model/mongo");
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Makers BnB' });
+  var response = {};
+  mongoOp.find({},function(err,data){
+  // Mongo command to fetch all data from collection.
+    if(err) {
+      response = {"error" : true,"message" : "Error fetching data"};
+    } else {
+      response = {"error" : false,"message" : data};
+    }
+    res.render('index', {
+      title: 'Makers BnB',
+      properties: response });
+  });
 });
 
 router.get('/users/new', function(req, res, next) {
@@ -30,6 +41,7 @@ router.route("/properties")
               response = {"error" : false,"message" : data};
           }
           res.json(response);
+          res.render('index', { title: 'Makers BnB' });
       });
   })
   .post(function(req,res){

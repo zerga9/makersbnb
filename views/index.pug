@@ -5,8 +5,12 @@ head
   script(src='https://code.jquery.com/jquery-3.3.1.slim.min.js' integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo' crossorigin='anonymous')
 h1 Welcome to Makers BnB
 br
+
 h4 Here is a list of our available properties:
 br
+
+#{properties['message']}
+
 ul.list-group
   li.list-group-item
     | Penthouse Oasis on Regent Canal
@@ -33,4 +37,4 @@ ul.list-group
     br
     |   Price: &pound;204 per night
 
-a.btn.btn-info(href='/users/new' role='button') Sign In/Register    
+a.btn.btn-info(href='/users/new' role='button') Sign In/Register
