@@ -5,7 +5,8 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var bodyParser  =   require("body-parser");
 var router      =   express.Router();
-var mongoOp     =   require("./model/mongo");
+var mongoOp     =   require("./model/propertyMongo");
+var userMongoOp     =   require("./model/userMongo");
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
