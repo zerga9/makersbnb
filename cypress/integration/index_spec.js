@@ -43,9 +43,3 @@ describe('Add property page', function(){
 // seeing it on page
 
 // check all routes
-
-
-
-
-
-
