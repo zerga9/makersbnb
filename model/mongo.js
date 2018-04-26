@@ -1,4 +1,5 @@
 var mongoose    =   require("mongoose");
+require('../config.js');
 mongoose.connect(MONGO_URL);
 // create instance of Schema
 var mongoSchema =   mongoose.Schema;
