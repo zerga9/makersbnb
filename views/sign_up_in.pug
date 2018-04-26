@@ -9,7 +9,7 @@ head
     #logbox
       form#signup(method='post' action='/property/new')
         h1 create an account
-        input.input.pass(name='user[name]' type='text' placeholder="What's your username?" pattern='^[\w]{3,16}$' autofocus='autofocus' required='required')
+        input.input.pass(name='user[name]' type='text' placeholder="What's your username?" autofocus='autofocus' required='required')
         input.input.pass(name='user[password]' type='password' placeholder='Choose a password' required='required')
         input.input.pass(name='user[password2]' type='password' placeholder='Confirm password' required='required')
         input.input.pass(name='user[email]' type='email' placeholder='Email address')
