@@ -6,12 +6,13 @@ var logger = require('morgan');
 var bodyParser  =   require("body-parser");
 var router      =   express.Router();
 var mongoOp     =   require("./model/propertyMongo");
-var userMongoOp     =   require("./model/userMongo");
+var userMongoOp     =   require("./model/propertyMongo");
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
 var app = express();
+var session = require('express-session')
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
