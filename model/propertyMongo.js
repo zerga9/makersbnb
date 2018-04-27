@@ -8,5 +8,6 @@ var propertySchema  = {
     "propertyDetails" : String,
     "propertyPrice" : String
 };
+
 // create model if not exists.
 module.exports = mongoose.model('properties',propertySchema);
