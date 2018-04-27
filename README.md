@@ -2,6 +2,8 @@
 
 
 ### Project: Make a clone of AirBnB
+screenshot homepage
+![Screenshot](https://www.dropbox.com/s/zwkfo5lw4a3p8rb/homepage.png?dl=0)
 
 Our group: Louis, Dan, Lorraine and Gadiza
 
@@ -28,7 +30,7 @@ One pair will be making the frontend HTML files with the properties and contact 
 
 #### Day 2 - 3
 
-Having set up our database we updated our code to pull and push the data from the database and get rid of the hard coded properties and details in our html. 
+Having set up our database we updated our code to pull and push the data from the database and get rid of the hard coded properties and details in our html.
 
 ##### Completed User Stories
 
@@ -44,12 +46,15 @@ As a user, so I can decide where to stay, I'd like to view a list of properties.
 
 #### Day 4
 
-Having completed a signup and log in html page on day 2, we now need to get it functional and link it to a new database collection to complete the following user stories. We are also working on ensuring we have full test coverage for all of our code. 
+Having completed a signup and log in html page on day 2, we now need to get it functional and link it to a new database collection to complete the following user stories. We are also working on ensuring we have full test coverage for all of our code.
 
 ##### User Stories
 
 As a user(landlord), so that only I can post my properties, I'd like to be able to sign up.
 As a user(landlord), so that only I can post my properties, I'd like to be able to sign in and out.
+
+#### Day 5
+
 
 
 
