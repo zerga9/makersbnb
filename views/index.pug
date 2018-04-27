@@ -1,20 +1,40 @@
 doctype html
 head
   title Makers BnB
+  link(rel='stylesheet' href='/stylesheets/style.css')
   link(rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css' integrity='sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4' crossorigin='anonymous')
   script(src='https://code.jquery.com/jquery-3.3.1.slim.min.js' integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo' crossorigin='anonymous')
-h1 Welcome to Makers BnB
-br
 
-h4 Here is a list of our available properties:
+  nav.navbar.navbar-expand-lg.navbar-white.bg-white.fixed-top
+    .container
+      a.navbar-brand(href='#')
+        img(src='/images/MakersBnBLogoDark.png', width='350', height='150', alt='')
+      button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
+        span.navbar-toggler-icon
+      #navbarResponsive.collapse.navbar-collapse
+        ul.navbar-nav.ml-auto
+          li.nav-item
+            a.nav-link(href='/users/new') Register
+          li.nav-item
+            a.nav-link(href='/users/new' role='button') Sign In
 
-br
 
-ul.list-group
+.mainblock.container-fluid
+  br
+  br
+  br
+  br
+  br
+  br
+  h4 Here is a list of our available properties:
+  br
+  ul.list-group
   each property in properties['message']
-    li.list-group-item= property['propertyName']
-    li= property['propertyPrice']
-    li= property['propertyDetails']
-    br
-
-a.btn.btn-info(href='/users/new' role='button') Sign In/Register
+    li.list-group-item
+      h7= property['propertyName']
+      br
+      h7= property['propertyPrice']
+      br
+      h7 Contact Details: 
+      h7= property['propertyDetails']
+      br
