@@ -3,7 +3,7 @@
 
 ### Project: Make a clone of AirBnB
 screenshot homepage
-![Screenshot](https://www.dropbox.com/s/zwkfo5lw4a3p8rb/homepage.png?dl=0)
+![image](https://user-images.githubusercontent.com/33194929/39360444-2b6a88ec-4a16-11e8-8cce-54fb1b8fcf07.png)
 
 Our group: Louis, Dan, Lorraine and Gadiza
 
