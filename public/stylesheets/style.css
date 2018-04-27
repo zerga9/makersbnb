@@ -4,7 +4,8 @@ body {
 }
 
 a {
-  color: #00B7FF;
+  color: #587388 !important;
+  font-size: 1.5rem;
 }
 
 ::selection {
@@ -35,11 +36,29 @@ body {
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
 }
 
+.mainblock {
+  position: relative !important;
+  left: 20px !important;
+  background-color: #fff !important;
+}
 h1 {
   text-align: center;
   font-size: 175%;
-  color: #757575;
+  color: #587388 !important;
   font-weight: 300;
+}
+
+h4 {
+    font-size: 1.5rem;
+    color: #587388 !important;
+}
+h7 {
+    color: #587388 !important;
+}
+img {
+    position: relative !important;
+    right: 80px !important;
+
 }
 
 h1, input {
@@ -77,17 +96,17 @@ h1, input {
   display: block;
   margin: 30px auto 30px;
   color: white;
-  background-color: #3CC;
+  background-color: #587388;
   border: none;
-  -webkit-box-shadow: 0 5px 0 #2CADAD;
-  -moz-box-shadow: 0 5px 0 #2CADAD;
-  box-shadow: 0 5px 0 #2CADAD;
+  -webkit-box-shadow: 0 5px 0 #587388;;
+  -moz-box-shadow: 0 5px 0 #587388;;
+  box-shadow: 0 5px 0 #587388;;
 }
 .inputButton:hover {
   top: 2px;
-  -webkit-box-shadow: 0 3px 0 #2CADAD;
-  -moz-box-shadow: 0 3px 0 #2CADAD;
-  box-shadow: 0 3px 0 #2CADAD;
+  -webkit-box-shadow: 0 3px 0 #587388;;
+  -moz-box-shadow: 0 3px 0 #587388;;
+  box-shadow: 0 3px 0 #587388;;
 }
 .inputButton:active {
   top: 5px;
@@ -95,4 +114,8 @@ h1, input {
 }
 .inputButton:focus {
   outline: none;
+}
+
+ul {
+  list-style-type: none;
 }

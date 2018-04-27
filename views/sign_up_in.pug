@@ -4,6 +4,7 @@ head
   link(rel='stylesheet' href='/stylesheets/style.css')
   link(rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css' integrity='sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4' crossorigin='anonymous')
   script(src='https://code.jquery.com/jquery-3.3.1.slim.min.js' integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo' crossorigin='anonymous')
+  
 .container
   .col-md-6
     #logbox
@@ -14,8 +15,7 @@ head
         input.input.pass(name='userEmail' type='email' placeholder='Email address')
         input.inputButton(type='submit' value='Sign me up!')
         .text-center
-          | already have an account?
-          a#login_id(href='#') login
+
   // col-md-6
   .col-md-6
     #logbox
@@ -25,6 +25,3 @@ head
         input.input.pass(name='user[password]' type='password' placeholder='enter your password' required='required')
         input.inputButton(type='submit' value='Sign me in!')
         .text-center
-          a(href='#' id='') create an account
-          |  -
-          a(href='#' id='') forgot password
