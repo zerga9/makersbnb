@@ -62,7 +62,7 @@ router.post('/users/new', function(req, res, next) {
       }
       // res.json(response);
 
-      res.redirect('/users');
+      res.redirect('/properties');
     });
 });
 
