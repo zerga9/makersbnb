@@ -1,7 +1,7 @@
 # MakersBnB
 
-
 ### Project: Make a clone of AirBnB
+
 screenshot homepage
 ![image](https://user-images.githubusercontent.com/33194929/39360444-2b6a88ec-4a16-11e8-8cce-54fb1b8fcf07.png)
 
@@ -36,7 +36,6 @@ As a user, so I can contact the property owner, I'd like to view the owners cont
 
 One pair will be making the frontend HTML files with the properties and contact details hardcoded in and the other pair will be working on setting up our database.
 
-
 #### Day 2 - 3
 
 Having set up our database we updated our code to pull and push the data from the database and get rid of the hard coded properties and details in our html.
@@ -64,17 +63,13 @@ As a user(landlord), so that only I can post my properties, I'd like to be able 
 
 #### Day 5
 
+screenshots added to README file
 
+## Testing framework installation
 
+1.  Install Cypress by running `npm install cypress` (you may also need to run `npm init`)
 
-Testing framework installation
------
-
-1. Install Cypress by running `npm install cypress` (you may also need to run `npm init`)
-
-
-Installation instructions
------
+## Installation instructions
 
 - Install Node.js
 - Run `npm install` to install dependencies
