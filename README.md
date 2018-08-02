@@ -24,13 +24,13 @@ We decided on our technology stack. JavaScript, Node.js, Express.Js, MongoDB and
 
 To get the MVP(The smallest thing that implements the core idea.), we decided to start with two user stories:
 
-##### User Story 1
-
+```
+User Story 1
 As a user, so I can decide where to stay, I'd like to view a list of properties.
 
-##### User Story 2
-
+User Story 2
 As a user, so I can contact the property owner, I'd like to view the owners contact details.
+```
 
 ##### Division of Labour
 
@@ -42,15 +42,26 @@ Having set up our database we updated our code to pull and push the data from th
 
 ##### Completed User Stories
 
-As a user (landlord), so I can tell people about the property, I'd like to provide a short description about it.
+```
+As a user (landlord),
+so I can tell people about the property, I'd like to provide a short description about it.
 
-As a user (landlord), so I can rent out my property, I'd like to add my property to the list.
+As a user (landlord),
+so I can rent out my property,
+I'd like to add my property to the list.
 
-As a user(landlord), so that I can show all of my properties, I'd like to be able to post more than one.
+As a user(landlord),
+so that I can show all of my properties,
+I'd like to be able to post more than one.
 
-As a user (landlord), so I can be contacted about my property, I'd like to provide my contact details.
+As a user (landlord),
+so I can be contacted about my property,
+I'd like to provide my contact details.
 
-As a user, so I can decide where to stay, I'd like to view a list of properties.
+As a user,
+so I can decide where to stay,
+I'd like to view a list of properties.
+```
 
 #### Day 4
 
