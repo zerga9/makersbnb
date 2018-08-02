@@ -2,19 +2,21 @@
 
 ### Project: Make a clone of AirBnB
 
-screenshot homepage
+##### screenshots
+
+homepage
 ![image](https://user-images.githubusercontent.com/33194929/39360444-2b6a88ec-4a16-11e8-8cce-54fb1b8fcf07.png)
 
-screenshot sign_in sign_up page
+sign_in sign_up
 ![image](https://user-images.githubusercontent.com/33194929/39360574-c2a48eba-4a16-11e8-8349-0cdd248adb49.png)
 
-screenshot properties page
+properties
 ![image](https://user-images.githubusercontent.com/33194929/39360653-f99bfc50-4a16-11e8-8c16-d18094e5dd43.png)
 
-screenshot add new property page
+add new property
 ![image](https://user-images.githubusercontent.com/33194929/39360675-163b4d3e-4a17-11e8-9d8a-71aae8e29252.png)
 
-Our group: Louis, Dan, Lorraine and Gadiza
+##### Our group: Louis, Dan, Lorraine and Gadiza
 
 #### Day 1
 
